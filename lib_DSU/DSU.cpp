@@ -27,10 +27,10 @@ int DSU::find(int elem) {
     if (elem < 0 || elem >= _size) {
         throw std::logic_error("Input Error: Element out of bounds\n");
     }
-    if (_parent[elem] == elem) {
-        return elem;
+    if (_parent[elem] != elem) {
+        _parent[elem] = find(_parent[elem]);  // Path compression
     }
-    return find(_parent[elem]);
+    return _parent[elem];
 }
 
 void DSU::union_sets(int first, int second) {
@@ -41,7 +41,16 @@ void DSU::union_sets(int first, int second) {
         return;
     }
 
-    _parent[second_root] = first_root;
+    if (_rank[first_root] < _rank[second_root]) {
+        _parent[first_root] = second_root;
+    }
+    else if (_rank[first_root] > _rank[second_root]) {
+        _parent[second_root] = first_root;
+    }
+    else {
+        _parent[second_root] = first_root;
+        _rank[first_root]++;
+    }
 }
 
 void DSU::clear() {
