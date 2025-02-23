@@ -1,4 +1,4 @@
-// Copyright 2024 Ivan Shebelov
+// Copyright 2025 Ivan Shebelov
 
 #include <stdexcept>
 #include "../lib_DSU/DSU.h"

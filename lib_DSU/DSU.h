@@ -1,4 +1,4 @@
-// Copyright 2024 Ivan Shebelov
+// Copyright 2025 Ivan Shebelov
 
 #ifndef LIB_DSU_DSU_H_
 #define LIB_DSU_DSU_H_
