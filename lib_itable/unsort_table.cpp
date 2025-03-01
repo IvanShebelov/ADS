@@ -1,6 +1,8 @@
 // Copyright 2025 Ivan Shebelov
 
 #include "unsort_table.h"
+#include <stdexcept>
+#include "../lib_easy_example/easy_example.h"
 
 // Вставка элемента в таблицу
 template <typename TKey, typename TVal>
@@ -53,7 +55,3 @@ template <typename TKey, typename TVal>
 size_t TUnsortedTable<TKey, TVal>::size() const {
     return _data.getSize();
 }
-
-#include <stdexcept>
-#include "../lib_easy_example/easy_example.h"
-

@@ -3,8 +3,8 @@
 #ifndef LIB_ITable
 #define LIB_ITable
 
-#include "ITable.h"
 #include "TList.h"
+#include "ITable.h"
 #include "TPair.h"
 
 template <typename TKey, typename TVal>
@@ -26,4 +26,4 @@ public:
     size_t size() const override;
 };
 
-#endif  // LIB_ITable
+#endif 
