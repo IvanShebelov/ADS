@@ -7,22 +7,21 @@ private:
     struct Node {
         T data;
         Node* next;
-        Node(const T& d) : data(d), next(nullptr) {}
+        Node(const T& data) : data(data), next(nullptr) {}
     };
 
     Node* head;
     Node* tail;
-    size_t size;
+    size_t _size;
 
 public:
-    TList() : head(nullptr), tail(nullptr), size(0) {}
+    TList() : head(nullptr), tail(nullptr), _size(0) {}
     ~TList();
 
     void push_back(const T& data);
     void remove(const T& data);
-    bool contains(const T& data) const;
-    size_t getSize() const;
     T* find(const T& data);
+    size_t size() const;
 };
 
 template <typename T>
@@ -45,7 +44,7 @@ void TList<T>::push_back(const T& data) {
         tail->next = newNode;
         tail = newNode;
     }
-    size++;
+    _size++;
 }
 
 template <typename T>
@@ -65,29 +64,12 @@ void TList<T>::remove(const T& data) {
                 tail = prev;
             }
             delete current;
-            size--;
+            _size--;
             return;
         }
         prev = current;
         current = current->next;
     }
-}
-
-template <typename T>
-bool TList<T>::contains(const T& data) const {
-    Node* current = head;
-    while (current) {
-        if (current->data == data) {
-            return true;
-        }
-        current = current->next;
-    }
-    return false;
-}
-
-template <typename T>
-size_t TList<T>::getSize() const {
-    return size;
 }
 
 template <typename T>
@@ -100,6 +82,11 @@ T* TList<T>::find(const T& data) {
         current = current->next;
     }
     return nullptr;
+}
+
+template <typename T>
+size_t TList<T>::size() const {
+    return _size;
 }
 
 #endif // TLIST_H

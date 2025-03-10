@@ -1,0 +1,9 @@
+C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/CMakeFiles/ALL_BUILD.dir
+C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/CMakeFiles/ZERO_CHECK.dir
+C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/lib_easy_example/CMakeFiles/EasyExample.dir
+C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/lib_DSU/CMakeFiles/DSU.dir
+C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/lib_disorder_order_table/CMakeFiles/lib_disorder_order_table.dir
+C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/lib_itable/CMakeFiles/ITable.dir
+C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/main/CMakeFiles/Application.dir
+C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/gtest/CMakeFiles/gtest.dir
+C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/CMakeFiles/Tests.dir

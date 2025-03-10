@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C1E9101E-9119-3F05-A63F-FD20635070CB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Tests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\tests\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Tests.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\tests\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Tests.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\tests\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Tests.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\tests\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Tests.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_easy_example;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_DSU;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_disorder_order_table;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_itable;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_easy_example;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_DSU;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_disorder_order_table;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_itable;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_easy_example;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_DSU;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_disorder_order_table;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_itable;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib_easy_example\Debug\EasyExample.lib;..\lib_DSU\Debug\DSU.lib;..\lib_disorder_order_table\Debug\lib_disorder_order_table.lib;..\lib_itable\Debug\ITable.lib;..\gtest\Debug\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/Debug/Tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/Debug/Tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_easy_example;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_DSU;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_disorder_order_table;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_itable;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_easy_example;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_DSU;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_disorder_order_table;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_itable;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_easy_example;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_DSU;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_disorder_order_table;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_itable;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib_easy_example\Release\EasyExample.lib;..\lib_DSU\Release\DSU.lib;..\lib_disorder_order_table\Release\lib_disorder_order_table.lib;..\lib_itable\Release\ITable.lib;..\gtest\Release\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/Release/Tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/Release/Tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_easy_example;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_DSU;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_disorder_order_table;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_itable;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_easy_example;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_DSU;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_disorder_order_table;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_itable;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_easy_example;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_DSU;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_disorder_order_table;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_itable;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib_easy_example\MinSizeRel\EasyExample.lib;..\lib_DSU\MinSizeRel\DSU.lib;..\lib_disorder_order_table\MinSizeRel\lib_disorder_order_table.lib;..\lib_itable\MinSizeRel\ITable.lib;..\gtest\MinSizeRel\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/MinSizeRel/Tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/MinSizeRel/Tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_easy_example;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_DSU;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_disorder_order_table;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_itable;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_easy_example;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_DSU;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_disorder_order_table;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_itable;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_easy_example;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_DSU;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_disorder_order_table;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_itable;C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib_easy_example\RelWithDebInfo\EasyExample.lib;..\lib_DSU\RelWithDebInfo\DSU.lib;..\lib_disorder_order_table\RelWithDebInfo\lib_disorder_order_table.lib;..\lib_itable\RelWithDebInfo\ITable.lib;..\gtest\RelWithDebInfo\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/RelWithDebInfo/Tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/RelWithDebInfo/Tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\tests\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main -BC:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main --check-stamp-file C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main -BC:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main --check-stamp-file C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main -BC:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main --check-stamp-file C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main -BC:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main --check-stamp-file C:/github/Algorithms-and-Data-Structures-main/Algorithms-and-Data-Structures-main/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\tests\test_DSU.cpp" />
+    <ClCompile Include="C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\tests\test_TOrderedTable.cpp" />
+    <ClCompile Include="C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\tests\test_TUnorderedTable.cpp" />
+    <ClCompile Include="C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\tests\test_easy_example.cpp" />
+    <ClCompile Include="C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\tests\test_main.cpp" />
+    <ClCompile Include="C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\tests\test_unsort_table.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\ZERO_CHECK.vcxproj">
+      <Project>{8BC79072-51BA-33FA-A81E-4C0CCCCC5173}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_DSU\DSU.vcxproj">
+      <Project>{C1974E45-4BC8-3F91-9CB9-E405C1AD1049}</Project>
+      <Name>DSU</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_easy_example\EasyExample.vcxproj">
+      <Project>{F6E61013-6ADD-341A-9E78-B7D0D3442595}</Project>
+      <Name>EasyExample</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_itable\ITable.vcxproj">
+      <Project>{3C64C945-DE14-36C6-85F2-BCC08DA5F902}</Project>
+      <Name>ITable</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\gtest\gtest.vcxproj">
+      <Project>{826AA3C4-B7AB-3B00-BDCF-37C867C1E0BB}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\github\Algorithms-and-Data-Structures-main\Algorithms-and-Data-Structures-main\lib_disorder_order_table\lib_disorder_order_table.vcxproj">
+      <Project>{17D29C14-9C17-3797-9D04-80D0D241C5CF}</Project>
+      <Name>lib_disorder_order_table</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
