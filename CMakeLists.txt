@@ -12,7 +12,6 @@ include(cmake/function.cmake)         # подхватываем функции,
 
 add_subdirectory(lib_easy_example)    # подключаем дополнительный CMakeLists.txt из подкаталога с именем lib_easy_example
 add_subdirectory(lib_DSU)
-add_subdirectory(lib_disorder_order_table)
 add_subdirectory(lib_itable)
 add_subdirectory(main)                # подключаем дополнительный CMakeLists.txt из подкаталога с именем main
 
